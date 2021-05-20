@@ -16,11 +16,10 @@
      @Disabled
   
 3. JUnit 5: 테스트 이름 표시하기
-    @DisplayNameGeneration
-      Method와 Class 레퍼런스를 사용해서 테스트 이름을 표기하는 방법 설정.
+    - @DisplayNameGeneration
+    Method와 Class 레퍼런스를 사용해서 테스트 이름을 표기하는 방법 설정.
     (@DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)와 같이 선언)
-    
-    @DisplayName
+      
+    - @DisplayName
       어떤 테스트인지 테스트 이름을 보다 쉽게 표현할 수 있는 방법을 제공하는 애노테이션
-      @DisplayName("스터디만들기 \uD83d\uDe31")식으 선언
-      (@DisplayNameGeneration 보다 우선 순위가 높다.)
+      @DisplayName("스터디만들기 \uD83d\uDe31")와 같이 선언, @DisplayNameGeneration 보다 우선 순위가 높다.
