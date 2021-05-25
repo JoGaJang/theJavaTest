@@ -12,9 +12,8 @@ class StudyTest {
     @Test
     @DisplayName("스터디만들기 \uD83d\uDe31") // 실행 목록에 원하는 텍스트로 노출
     void test(){
-        Study studt = new Study();
-        assertNotNull(studt);
-        System.out.println("create");
+
+        Study studt = new Study(-10);
     }
 
     /**
@@ -49,6 +48,5 @@ class StudyTest {
     void afterEach(){
         System.out.println("after Each");
     }
-
 
 }
