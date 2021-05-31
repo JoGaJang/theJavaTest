@@ -24,7 +24,7 @@
       어떤 테스트인지 테스트 이름을 보다 쉽게 표현할 수 있는 방법을 제공하는 애노테이션
       @DisplayName("스터디만들기 \uD83d\uDe31")와 같이 선언, @DisplayNameGeneration 보다 우선 순위가 높다.
 
-4. JUnit 5: Assertion
+4. JUnit 5: [Assertion](https://github.com/JoGaJang/theJavaTest/blob/master/src/test/java/com/thejavatest/thejavatest/StudyTestAssert.java)
    ```
    import org.junit.jupiter.api.Assertions.*
    ```
